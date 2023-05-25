@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #979799;
+    color: black;
+    border: none;
+    font-weight: 500;
+}
+
+.signal-light-container {
+    height: 35vh;
+    width: 8vw;
+    border-radius: 10px;
+    background-color: #979799;
+}
+
+.signal-light-pole-container {
+    height: 55vh;
+    width: 3vw;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    /* border-radius: 10px; */
+    background-color: #979799;
+}
+
+.signal-light-pole-base-container {
+    height: 5vh;
+    width: 7vw;
+    background-color: #979799;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+div .bulb {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #282c30;
+}
